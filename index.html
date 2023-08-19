@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body> 
+  <div class="container"> 
+      <div class="search"> 
+          <label>Filter by Operating System:</label> 
+          <select class="ByOS" style="height:50px; width: 25%;" > 
+              <option value="-1" selected>Filter by Operating System</option> 
+             
+          </select> 
+
+          <label>Filter by Brand:</label> 
+          <select class="ByBrand" style="height:50px;width: 25%; "> 
+              <option value="-1" selected>Filter by Brand</option> 
+
+          </select> 
+
+      </div> 
+      <div class="table-content"> 
+          <table class="tbl"> 
+              <tr> 
+                  <td>ID</td> 
+                  <td>Name</td> 
+                  <td>Brand</td> 
+                  <td>Operating System</td> 
+                  <td>Remove</td> 
+              </tr> 
+              <!-- <tr> 
+                  <td>101</td> 
+                  <td>Iphone</td> 
+                  <td>Apple</td> 
+                  <td>Ios</td> 
+                  <td><a href="#">X</a></td> 
+              </tr> --> 
+          </table> 
+      </div> 
+      <div class="search-box"> 
+          <input type="text" class="seach" placeholder="Search" style="height: 50px; margin-top:50px"> 
+          <button class="search-items" id="srch" style="padding: 20px;">Search</button> 
+
+      </div> 
+  </div> 
+
+  <script src="script.js"></script> 
+</body> 
+
+</html>
+
+
+    
+
